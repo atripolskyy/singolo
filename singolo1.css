@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #2d303a;
+}
+
+.section {
+    background-color: #f2f2f2;
+}
+
+.feautures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
